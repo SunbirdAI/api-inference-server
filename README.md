@@ -15,3 +15,10 @@ The process of deployment is as follows:
 **NOTE**: Check out [this article for a detailed tutorial](https://medium.com/nlplanet/deploy-a-pytorch-model-with-flask-on-gcp-vertex-ai-8e81f25e605f) on this process.
 
 The resulting endpoint is then used in the main [Sunbird AI API](https://github.com/SunbirdAI/sunbird-ai-api).
+
+### TODOs
+- Add TTS
+- Handle long audio files.
+- Use a smaller base container, current container (`huggingface/transformers-pytorch-gpu`) is pretty heavy and maybe unncessary. This would enable us to end up with a smaller artificat which takes up less memory.
+- Automate the deployment process for both the API and this inference service (using Github Actions or Terraform...or both?)
+- Come up with an end-to-end workflow from data ingestion to deployment (what tools are required for this?).
