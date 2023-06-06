@@ -3,7 +3,7 @@ This repository contains code for a flask server that's containerized and deploy
 
 The flask server provides access to the following Sunbird AI models:
 - [ASR (speech to text) for Luganda](https://huggingface.co/Sunbird/sunbird-asr).
-- Translation ([local languages to English](https://huggingface.co/Sunbird/sunbird-mul-en-mbart-merged) and [English to local languages]([url](https://huggingface.co/Sunbird/sunbird-en-mul))).
+- Translation ([local languages to English](https://huggingface.co/Sunbird/sunbird-mul-en-mbart-merged) and [English to local languages](https://huggingface.co/Sunbird/sunbird-en-mul).
 - [TTS](https://huggingface.co/Sunbird/sunbird-lug-tts) (coming soon to the API)
 
 The process of deployment is as follows:
