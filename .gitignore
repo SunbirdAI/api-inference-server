@@ -1,0 +1,5 @@
+.idea/
+venv/
+
+# too large to be committed to github
+app/models
