@@ -1,5 +1,7 @@
 .idea/
 venv/
+app/__pycache__/
+__pycache__/
 
 # too large to be committed to github
 app/models
