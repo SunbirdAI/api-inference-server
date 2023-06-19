@@ -3,8 +3,10 @@ pyctcdecode
 https://github.com/kpu/kenlm/archive/master.zip
 librosa
 torch
+torchaudio
 flask
 flask-cors
 gunicorn
 sentencepiece
+speechbrain
 requests

@@ -50,6 +50,10 @@ payload = {
             "sentence": "I would like to translate this text to Acholi",
             "task": "translate_from_english",
             "target_language": "Acholi"
+        },
+        {
+            "sentence": "Mbagaliza Christmass Enungi Nomwaka Omugya Gubaberere Gwamirembe. I hiop the new year brings you lots of joy.",
+            "task": "tts"
         }
     ]
 }
