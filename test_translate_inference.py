@@ -2,7 +2,7 @@ from app.translate_inference import multiple_to_english, english_to_multiple
 
 text = "Mbagaliza Christmass Enungi Nomwaka Omugya Gubaberere Gwamirembe"
 
-print(multiple_to_english(text, ))
+print(multiple_to_english(text, 'Luganda'))
 
 english_text = "Welcome to the meeting."
 

@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, MBart50Tokenizer, MBartForConditionalGeneration
 
-mul_en_tokenizer = MBart50Tokenizer.from_pretrained('Sunbird/sunbird-mul-en-mbart-merged')
-mul_en_model = MBartForConditionalGeneration.from_pretrained('Sunbird/sunbird-mul-en-mbart-merged')
+mul_en_tokenizer = MBart50Tokenizer.from_pretrained('Sunbird/mbart-mul-en')
+mul_en_model = MBartForConditionalGeneration.from_pretrained('Sunbird/mbart-mul-en')
 
 en_mul_tokenizer = AutoTokenizer.from_pretrained('Sunbird/sunbird-en-mul')
 en_mul_model = AutoModelForSeq2SeqLM.from_pretrained('Sunbird/sunbird-en-mul')

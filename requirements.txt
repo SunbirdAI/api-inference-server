@@ -7,3 +7,4 @@ flask
 flask-cors
 gunicorn
 sentencepiece
+requests
