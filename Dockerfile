@@ -9,8 +9,13 @@ RUN mkdir /app
 
 # Copy local code to the container
 COPY ./app /app
-
-# launch server with gunicorn
 WORKDIR /app
+
+# (Debugging) See files in current folder.
+RUN ls
+
+# Download models (into container?)
+RUN python3 download_models.py
+
 EXPOSE 8080
 CMD ["gunicorn", "main:app", "--timeout=0", "--preload", "--workers=1", "--threads=4", "--bind=0.0.0.0:8080"]
