@@ -1,0 +1,21 @@
+name: lugstt-model
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python == 3.9  
+  - pip 
+  - pip:
+    - azureml-defaults==1.47.0
+    - pyyaml
+    - sentencepiece
+    - azure-storage-blob
+    - torch
+    - librosa
+    - inference-schema[numpy-support]==1.5
+    - transformers
+    - pyctcdecode==0.4.0
+    - kenlm
+    - scipy == 1.7.1  # Specify the required version of scipy
+    - numpy == 1.21.2  # Specify the required version of numpy
+    - setuptools  # Include setuptools explicitly

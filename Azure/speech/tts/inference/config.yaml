@@ -1,0 +1,3 @@
+azure_storage_connection_string: "" # Add the connection string of your Azure Storage account
+audio_cotainer: "generatedaudiolug"
+source_folder: "/luganda"
